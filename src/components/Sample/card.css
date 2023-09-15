@@ -1,0 +1,135 @@
+.time-slot-container {
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 2%;
+    padding: 1.5rem;
+    margin-bottom: 1rem; 
+    transition: all 1s; 
+}
+
+.card-month-container {
+    border-radius: 10px;
+    height: 4rem;
+}
+
+.card-time-container {
+    border-radius: 10px;
+    height: 2rem;
+}
+
+.card-month {
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card-time {
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card-time-text {
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.card-month-date {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card-month-day {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(90, 86, 86);
+}
+
+.time-card-header {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 1rem 0;
+    padding-left: 2.5rem;
+    font-size: .8rem;
+    color: rgb(90, 86, 86);
+}
+
+.arrow-right{
+    color:rgb(90, 86, 86);
+    font-size: 1.5rem;
+}
+
+.arrow-right:hover{
+    color:#00ADB5;
+}
+
+.react-horizontal-scrolling-menu--arrow-right {
+    width: 2rem;
+    border-radius: 50%;
+    background-color: transparent !important;
+}
+
+.react-horizontal-scrolling-menu--arrow-right button{
+    background-color: transparent !important;
+    border: none;
+}
+
+.arrow-right{
+    color:rgb(90, 86, 86);
+    font-size: 1.5rem;
+}
+
+.arrow-left{
+    color:rgb(90, 86, 86);
+    font-size: 1.5rem;
+}
+
+.arrow-left:hover{
+    color:#00ADB5;
+}
+
+.react-horizontal-scrolling-menu--arrow-left {
+    width: 2rem;
+    border-radius: 50%;
+    background-color: transparent !important;
+}
+
+.react-horizontal-scrolling-menu--arrow-left button{
+    background-color: transparent !important;
+    border: none;
+}
+
+.age-pick-select {
+    display: flex;
+}
+
+.age-pick-select select{
+    font-size: 1rem;
+    color: white;
+    margin-left: 3rem;
+    background-color: #393E46;
+    border: 2px solid #00adb5;
+    border-radius: 5px;
+}
+
+.no-margin{
+    margin-left: 1rem;
+}
+
+.age-pick-select select:focus{
+    border: 2px solid #00adb5;
+}

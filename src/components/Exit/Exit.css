@@ -1,0 +1,30 @@
+.exit-title {
+    font-size: 2rem;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+.exit-title p{
+    font-weight: 700;
+    display: inline;
+    text-transform: capitalize;
+    font-size: 2.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .exit-title {
+      font-size: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .exit-title {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    .exit-title p{
+        font-size: 1.4rem;
+      }
+    
+    }

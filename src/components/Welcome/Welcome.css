@@ -1,0 +1,66 @@
+.welcome-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-title {
+    font-size: 6rem;
+    color: white;
+}
+
+.welcome-btn{
+    color: white;
+    border-color: #00ADB5;
+    border: 2px solid #00ADB5;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 6px 8px;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 5rem;
+  }
+  
+  .welcome-btn:hover {
+    background-color: #00ADB5;
+    color: white;
+    transition: all .5s;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+
+  @media only screen and (max-width: 1400px) {
+    .welcome-title {
+      font-size: 4rem;
+    }
+    .react-chatbot-kit-chat-container{
+      width: 100vw;
+    }    
+  }
+
+  @media only screen and (max-width: 768px) {
+    .welcome-title {
+      font-size: 2rem;
+    }
+    .welcome-btn{
+      font-size: 1.5rem;
+    }
+    .react-chatbot-kit-chat-container{
+      width: 100vw;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .time-slot-container {
+      padding: 1rem;
+  }
+    .welcome-title {
+      font-size: 1.4rem;
+    }
+    .welcome-btn{
+      font-size: 1rem;
+    }
+    .react-chatbot-kit-chat-container{
+      width: 100vw;
+    }
+  }

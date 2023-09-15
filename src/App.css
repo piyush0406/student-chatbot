@@ -1,0 +1,95 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,301,701,300,501,401,901,400,2&display=swap');
+
+
+* {
+  font-family: 'Satoshi', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.react-chatbot-kit-chat-container{
+  width: 35vw;
+  height: 100vh;
+}
+
+.start-btn{
+  color: white;
+  border-color: #00ADB5;
+  border: 2px solid #00ADB5;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 4px 8px;
+  font-size: small;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.start-btn:hover {
+  background-color: #00ADB5;
+  color: white;
+  transition: all .5s;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  background-color: #00ADB5;
+  font-weight: 700;
+  margin-left: 0;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow{
+  border-right: 8px solid #00ADB5;
+}
+
+.react-chatbot-kit-chat-message-container{
+  background-color: #393E46;
+  height: 92vh;
+  overflow-x: hidden;
+}
+
+.react-chatbot-kit-user-chat-message{
+  font-weight: 700;
+}
+
+.react-chatbot-kit-chat-header{
+  background-color: #222831;
+  color: #EEEEEE;
+  font-variant: petite-caps;
+}
+
+.react-chatbot-kit-chat-btn-send{
+  background-color: #00ADB5;
+  cursor: pointer;
+}
+
+.react-chatbot-kit-chat-input{
+  background-color: #222831;
+  color: white;
+}
+
+.react-chatbot-kit-chat-input::placeholder{
+  color: white;
+}
+
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #555;
+}
+
+.react-chatbot-kit-chat-message-container::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #F5F5F5;
+}
+
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
